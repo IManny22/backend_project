@@ -6,6 +6,9 @@ import connectDB from "./db/index.js";
 
 import {app} from './app.js'
 
+//dotenv.config({
+//  path: './.env' //this is correct, this should be written
+//})
 dotenv.config({
   path: './env'
 })
